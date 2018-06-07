@@ -11,7 +11,9 @@
 #  - mini dark chocolate chips - 3/4 cup
 #  - olive oil - 1/2 cup
 #  - agave - 1/4 cup
-# All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
+# All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for
+spaces.
+perfect_10_recipe = {:almond_flour => 2_cups, :gluten_freewhole_oats => 1_cup, :kosher_salt => half_teaspoon, :baking_powder => half_teaspoon, :baking_soda => fourth_teaspoon  , :xanthan_gum => half_teaspoon, :slivered_almonds_lightly_toasted => fourth_cup, :mini_dark_chocolate_chips => 3/4
 
 #2. Write a method that simply returns (not puts) your perfect_10 hash
 def recipe_ingredients(perfect_10_recipe)
